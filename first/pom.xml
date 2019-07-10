@@ -40,29 +40,20 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
-	<build>
+	<build><!-- test branch check -->
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 			<plugin>
-
                 <artifactId>maven-compiler-plugin</artifactId>
-
                 <version>3.5.1</version>
-
                 <configuration>
-
                     <source>1.8</source>
-
                     <target>1.8</target>
-
                 </configuration>
-
-            </plugin>
-			
+            </plugin>	
 		</plugins>
 	</build>
 
